@@ -1,0 +1,44 @@
+.contenedor3{
+    width: 400px;
+    padding: 40px;
+    background:var(--contenedor);
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+}
+.acordeon3{
+    padding: 25px;
+    background: var(--gray);
+    color: var(--titulo);
+    border-radius: 7px;
+}
+.titulo3{
+    background: var(--acor1);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--titulo);
+    list-style: none;
+    position: relative;
+}
+.titulo3::after{
+    content: '▼';
+    font-size: 12px;
+    color:var(--titulo);
+    position: absolute;
+    right: 10px;
+    transition: transform 0.2s;
+}
+.titulo3:hover{
+    background-color: var(--hover);
+    color: var(--titulo);
+}
+
+.texto3{
+    margin-top: 6px;
+    color: var(--texto);
+    padding: 15px;
+}

@@ -1,0 +1,15 @@
+@import url(componente/lista.css);
+@import url(componente/variables.css);
+@import url(componente/acordeon4.css);
+@import url(componente/acordeon3.css);
+@import url(componente/acordeon1.css);
+@import url(componente/acordeon2.css);
+@import url(componente/2.css);
+@import url(componente/3.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

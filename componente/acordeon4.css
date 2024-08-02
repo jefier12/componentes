@@ -1,0 +1,44 @@
+.contenedor4{
+    width: 400px;
+    padding: 40px;
+    background:var(--contenedor);
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+}
+.acordeon4{
+    padding: 25px;
+    background: #b7b4b4;
+    color: var(--titulo);
+    border-radius: 7px;
+}
+.titulo4{
+    background: var(--acor1);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--titulo);
+    list-style: none;
+    position: relative;
+    transition: 0.4s;
+}
+.titulo4::after{
+    content: '▼';
+    font-size: 12px;
+    color:var(--titulo);
+    position: absolute;
+    right: 10px;
+    transition: transform 0.2s;
+}
+.titulo4:focus{
+    background-color: var(--hover);
+    font-size: 30px;
+}
+.texto4{
+    margin-top: 6px;
+    color: var(--texto);
+    padding: 15px;
+}

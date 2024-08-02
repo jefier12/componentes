@@ -1,0 +1,47 @@
+
+h1{
+    height: 50pxpx;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background:var(--encabezado);
+}
+.contenedor{
+    width: 400px;
+    padding: 40px;
+    background:var(--contenedor);
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+}
+.acordeon{
+    padding: 25px;
+    background: #b7b4b4;
+    color: var(--titulo);
+    border-radius: 7px;
+}
+.titulo{
+    background: var(--acor1);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--titulo);
+    list-style: none;
+    position: relative;
+}
+.titulo::after{
+    content: '▼';
+    font-size: 12px;
+    color:var(--titulo);
+    position: absolute;
+    right: 10px;
+    transition: transform 0.2s;
+}
+.texto{
+    margin-top: 6px;
+    color: var(--texto);
+    padding: 15px;
+}
