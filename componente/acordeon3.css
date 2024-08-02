@@ -1,19 +1,12 @@
-.contenedor3{
-    width: 400px;
-    padding: 40px;
-    background:var(--contenedor);
-    margin: 0 auto;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border-radius: 8px;
-}
+
 .acordeon3{
     padding: 25px;
     background: var(--gray);
     color: var(--titulo);
     border-radius: 7px;
+}
+.acordeon3:hover{
+  background: var(--texto);
 }
 .titulo3{
     background: var(--acor1);
@@ -34,11 +27,11 @@
 }
 .titulo3:hover{
     background-color: var(--hover);
-    color: var(--titulo);
+    color: var(--texto);
 }
-
 .texto3{
     margin-top: 6px;
     color: var(--texto);
     padding: 15px;
 }
+

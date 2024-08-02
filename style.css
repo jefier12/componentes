@@ -1,4 +1,5 @@
-@import url(componente/lista.css);
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url(componente/carta1.css);
 @import url(componente/variables.css);
 @import url(componente/acordeon4.css);
 @import url(componente/acordeon3.css);
@@ -12,4 +13,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+section{
+    width: 400px;
+    padding: 40px;
+    background:var(--contenedor);
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+:root{
+    --encabezado:#56def3;
+    --contenedor:#373c37;
+    --texto:#000000;
+    --titulo:#ffffff;
+    --acor1:#841616;
+    --gray:#b7b4b4;
+    --hover:#eb6c6cb7;
+    --acor2:#9a31f0b7;
+}
+
+body{
+   font-family: "Rubik", sans-serif;
 }

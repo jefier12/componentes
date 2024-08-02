@@ -6,17 +6,6 @@ h1{
     margin: 0 auto;
     background:var(--encabezado);
 }
-.contenedor{
-    width: 400px;
-    padding: 40px;
-    background:var(--contenedor);
-    margin: 0 auto;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border-radius: 8px;
-}
 .acordeon{
     padding: 25px;
     background: #b7b4b4;
@@ -31,6 +20,7 @@ h1{
     color: var(--titulo);
     list-style: none;
     position: relative;
+    transition: transform 0.2s;
 }
 .titulo::after{
     content: '▼';
