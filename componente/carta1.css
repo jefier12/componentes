@@ -55,7 +55,13 @@
   color: black;
 }
 
+.boton--sombra:hover{
+  background-color: #244e08;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
 
+}
+
+.boton
 .contenedor{
   width: 1400px;
   display: block;
