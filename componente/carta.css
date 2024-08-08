@@ -1,0 +1,103 @@
+
+.contenedor {
+  width: 1400px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.card {
+  background: var(--carta);
+  width: 270px;
+  height: 470px;
+  margin: 20px;
+  box-shadow: 5px 10px 5px var(--texto);
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.card__img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card__titulo {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card__texto {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.boton {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  background: var(--contenedor);
+  color: var(--titulo);
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* primera carta */
+.boton--negro:hover {
+  font-size: 40px;
+  background-color: var(--boton);
+  color: var(--texto);
+}
+
+.card__titulo--zoom:hover{
+  font-size: 50px;
+}
+
+/* segunda carta */
+
+.boton--gradiantes:hover {
+  background: var(--gradiante3);
+  color: var(--texto);
+}
+
+.card--gradiantes:hover{
+  background: var(--gradiante3);
+
+}
+
+/* tercera carta */
+
+.boton--sombra:hover {
+  background-color: var(--boton);
+  box-shadow: 0 8px 16px var(--texto);
+}
+
+.card__img--sombra{
+  filter: drop-shadow(0 0 0.75rem var(--sombra_carta));
+}
+
+
+/* cuarta carta */
+
+.boton--relleno{
+  border: 2px solid var(--contenedor);
+  color:var(--texto); 
+  background-color: transparent;
+}
+
+.boton--relleno:hover{
+  background: var(--gradiante3); 
+  color: var(--titulo);
+}
+.card--relleno{
+  background: var(--gradiante1);
+  color: var(--texto);
+}
+

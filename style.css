@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url(componente/carta1.css);
-@import url(componente/variables.css);
-@import url(componente/acordeon4.css);
-@import url(componente/acordeon3.css);
-@import url(componente/acordeon1.css);
-@import url(componente/acordeon2.css);
-@import url(componente/prueba.css);
+@import url(componente/carta.css);
+@import url(componente/listas.css);
+@import url(componente/acordeon.css);
+@import url(componente/botones.css);
 @import url(componente/2.css);
 @import url(componente/3.css);
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 
 
 *{
@@ -37,9 +40,29 @@ section{
     --acor1:#841616;
     --gray:#b7b4b4;
     --hover:#eb6c6cb7;
-    --acor2:#9a31f0b7;
+    --gradiante1:linear-gradient(#e60707, #3adae6);
+    --gradiante2:linear-gradient(#eb10d8, #76209e);
+    --gradiante3:linear-gradient(#ec8c0e,#172ad6);
+    --gradiante4:linear-gradient(45deg, #1fee31, #f71616);
+    --gradiante_especial:linear-gradient(45deg, #f1c40f 50%, #e67e22 50%);
+    --carta:#084b81b7;
+    --boton:#5c1163b7;
+    --sombra_carta:#ffee02;
+    --color_botones1:#ec0e0e;
+    --color_botones2:#002fff;
+    --color_botones3:#ff008c;
+    --color_botones3modi:#9d1f64;
+    --color_botones4:#0eec84;
+    --color_botones5:#33ff00;
+    --color_botones6:#ffff00;
+    --transparente:rgba(255, 255, 255, 0.1);
 }
+
 
 body{
    font-family: "Rubik", sans-serif;
+}
+
+h1{
+    background: var(--encabezado);
 }

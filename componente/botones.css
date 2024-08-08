@@ -1,0 +1,69 @@
+.numeros{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    margin: 10px auto;
+    justify-content: space-around;
+    gap: 10px;
+}
+.numeros__item{
+    /* background-color: var(--blanco);
+    border: solid 1px var(--negro);
+    width: 100px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;   */
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.numeros__item--modi1{
+    border-color: #007bff;
+    color: #007bff;
+    background-color: transparent;
+}
+
+.numeros__item--modi1:hover{
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+.numeros__item--modi2{
+   background: var(--contenedor);
+   color: var(--titulo);
+}
+
+.numeros__item--modi2:focus{
+    font-size: 40px;
+    background: var(--gradiante1);
+    color: #fff;
+    box-shadow: 0 4px 20px var(--color_botones4);
+}
+
+.numeros__item--modi3{
+    border-color: var(--color_botones5); 
+    color: var(--color_botones5);
+    background: var(--gradiante4);
+    box-shadow: 0 4px 15px var(--color_botones1);
+}
+
+.numeros__item--modi3:hover{
+    background: var(--gradiante4);
+    color: #fff;
+    box-shadow: 0 4px 20px var(--color_botones5);
+}
+
+
+.numeros__item--modi4{
+    color: var(--texto);
+    background-color: transparent;
+}
+
+.numeros__item--modi4:hover{
+    box-shadow: 0 0 0 4px var(--titulo), 0 0 0 8px var(--texto);
+}
+
+

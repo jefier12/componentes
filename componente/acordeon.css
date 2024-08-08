@@ -1,0 +1,77 @@
+.acordeon{
+    padding: 25px;
+    background: #4b4a4a;
+    color: var(--titulo);
+    border-radius: 7px;
+}
+
+.acordeon__item {
+    background: var(--acor1);
+    border-radius: 5px;
+    margin-bottom: 10px; /* Espacio entre items */
+}
+
+.acordeon__titulo {
+    text-decoration: none;
+    padding: 10px;
+    color: var(--titulo);
+    list-style: none;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+
+.acordeon__texto {
+    background: var(--acor1);
+    margin-top: 6px;
+    color: var(--texto);
+    padding: 15px;
+}
+
+.acordeon__titulo::after {
+    content: '▼';
+    font-size: 12px;
+    color: var(--titulo);
+    position: absolute;
+    right: 10px;
+    transition: transform 0.3s ease; 
+}
+
+/* primer acordeon */
+.acordeon__titulo--centrar:hover {
+    text-align: center;
+    transition: text-align 0.3s ease;
+}
+
+.acordeon__texto--centrar2:hover{
+    text-align: center;
+    transition: text-align 0.3s ease;
+}
+
+/* segundo aocodeon */
+.acordeon__titulo--cambio2:hover {
+    background-color: var(--hover);
+    color: var(--titulo);
+}
+
+.acordeon__texto--cambio3:hover{
+    background-color: var(--hover);
+    color: var(--titulo);
+}
+
+/* tercer acordeon */
+
+.acordeon__titulo--focus:focus{
+    background-color: var(--hover);
+    font-size: 30px;
+}
+
+/* cuarto acordeon */
+
+.acordeon__titulo--color:hover{
+    background: var(--gradiante1);
+}
+
+.acordeon__texto--color2:hover{
+    background: var(--gradiante2);
+}
