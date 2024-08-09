@@ -49,12 +49,12 @@
 }
 
 /* segundo aocodeon */
-.acordeon__titulo--cambio2:hover {
+.acordeon__titulo--cambio_hover:hover {
     background-color: var(--hover);
     color: var(--titulo);
 }
 
-.acordeon__texto--cambio3:hover{
+.acordeon__texto--cambio_hover2:hover{
     background-color: var(--hover);
     color: var(--titulo);
 }
@@ -68,10 +68,10 @@
 
 /* cuarto acordeon */
 
-.acordeon__titulo--color:hover{
+.acordeon__titulo--color_gradiante:hover{
     background: var(--gradiante1);
 }
 
-.acordeon__texto--color2:hover{
+.acordeon__texto--color_gradiante2:hover{
     background: var(--gradiante2);
 }

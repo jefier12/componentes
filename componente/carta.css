@@ -50,7 +50,7 @@
 }
 
 /* primera carta */
-.boton--negro:hover {
+.boton--zoom:hover {
   font-size: 40px;
   background-color: var(--boton);
   color: var(--texto);
@@ -96,7 +96,7 @@
   background: var(--gradiante3); 
   color: var(--titulo);
 }
-.card--relleno{
+.card--relleno_gradiante{
   background: var(--gradiante1);
   color: var(--texto);
 }

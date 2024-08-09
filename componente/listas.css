@@ -16,7 +16,7 @@
 }
 
 /* 1 modificador */
-.lista__item--mod1 {
+.lista__item--efecto_derecha {
     background-color: var(--color_botones1);
     border-radius: 8px;
     position: relative; 
@@ -24,7 +24,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-.lista__item--mod1::after {
+.lista__item--efecto_derecha::after {
     content: "";
     position: absolute;
     top: 0;
@@ -36,19 +36,19 @@
     transform: translateX(-100%);
 }
 
-.lista__item--mod1:hover {
+.lista__item--efecto_derecha:hover {
     transform: translateX(10px); 
     box-shadow: 0 4px 12px var(--texto);
 }
 
-.lista__item--mod1:hover::after {
+.lista__item--efecto_derecha:hover::after {
     transform: translateX(0); 
 }
 
 
 /* 2 modificador */
 
-.lista__item--mod2 {
+.lista__item--efecto_centro {
     background-color: var(--color_botones2);
     color: #fff;
     border-radius: 8px;
@@ -59,7 +59,7 @@
     transition: background-color 0.3s ease;
 }
 
-.lista__item--mod2::before {
+.lista__item--efecto_centro::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -72,16 +72,16 @@
     transform: translate(-50%, -50%) scale(0);
 }
 
-.lista__item--mod2:hover::before {
+.lista__item--efecto_centro:hover::before {
     transform: translate(-50%, -50%) scale(1); 
 }
 
-.lista__item--mod2:hover {
+.lista__item--efecto_centro:hover {
     background-color: var(--color_botones2);
 }
 
 /* 3 modificador */
-.lista__item--mod3 {
+.lista__item--efecto_elevar {
     background-color: var(--color_botones3);
     color: var(--titulo); 
     border-radius: 8px;
@@ -90,14 +90,14 @@
     transition: background-color 1s ease, border-color 0.3s ease, transform 0.3s ease;
 }
 
-.lista__item--mod3:hover {
+.lista__item--efecto_elevar:hover {
     background-color: var(--color_botones3modi);
     border-color: var(--color_botones3modi); 
     transform: translateY(-5px); 
 }
 
 /* 4 modificador */
-.lista__item--mod4 {
+.lista__item--efecto_diagonal{
     background-color:var(--color_botones6);
     color: var(--contenedor); 
     border-radius: 8px;
@@ -105,12 +105,12 @@
     text-align: center;
     position: relative; 
     overflow: hidden; 
-    transition: color 0.3s ease, background-position 0.3s ease;
+    transition: color 0.5s ease, background-position 0.5s ease;
     background: var(--gradiante_especial); 
     background-size: 200% 200%;
 }
 
-.lista__item--mod4:hover {
+.lista__item--efecto_diagonal:hover {
     color: var(--titulo); 
     background-position: 100% 0; 
 }
